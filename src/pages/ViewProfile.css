@@ -1,0 +1,55 @@
+/* ProfilePage.css */
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(10, 10, 10, 0.201);
+    border-radius: 8px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: 100%;
+  }
+  /* .profile-hr {
+    border: 1px solid #ccc;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  } */
+  .profile-header {
+    text-align: center;
+  }
+  
+  .profile-content {
+    margin-top: 15px;
+    font-size: 20px;
+  }
+  
+  .profile-section {
+    margin-bottom: 20px;
+  }
+  
+  .profile-section p {
+    margin: 5px 0;
+  }
+  
+  .button {
+    margin-top: 20px;
+  }
+  
+  /* Center the button */
+  .button {
+    align-self: center;
+  }
+  
+  /* Adjustments for responsiveness */
+  @media (max-width: 600px) {
+    .profile-container {
+      max-width: 100%;
+    }
+  }
+  
